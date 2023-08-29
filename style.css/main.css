@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.search-container{
+    border: 0.1px solid black;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 150px;
+}
+.search-example{
+    font-size:40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.example{
+    margin-top: 10px;
+    font-size: 20px;
+    opacity: 0.6;
+    margin-left: 20px;
+}
+.search-bar{
+    margin-top: 10px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.info-container{
+    border: 0.2px solid black;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.info-image{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+}
+.view{
+    margin-left: 50px;
+    width: 200px;
+    background-color: rgb(114, 114, 240);
+    border-radius: 0.5rem;
+    padding: none;
+    border: none;
+    height: 30px;
+    color: white;
+}
+.public{
+    float: right;
+    flex:1;
+
+    align-items: center;
+}
+.top{
+    margin-top: 20px;
+}
+.middle{
+    margin-left:20px;
+    font-size: 40px;
+    margin-top:30px;
+}
+.company{
+    border:0.5px solid black;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 10px;
+    
+}
+.Web{
+    border: 0.5px solid black;
+    height: 40px;
+    margin-right: 10px;
+}
+.location{
+    border: 0.5px solid black;
+    height: 40px;
+    margin-right: 10px;
+}
+.Member{
+    border: 0.5px solid black;
+    height: 40px;
+    margin-right: 10px;
+}
+.list{
+    margin-top: 20px;
+}
+.repos1{
+    border: 0.5px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.repos-name{
+    margin-left: 10px;
+}
+.right-section{
+    display: flex;
+    row-gap: 30px;
+    margin-right:100px;
+}
+.share1{
+    margin-right: 20px;
+}
+.Watchers{
+    margin-right: 20px;
+}
+
+.list li{
+    list-style: none;
+}
+
+.footer{
+    margin:0;
+    background-color: rgb(245, 241, 241);
+    height: 50px;
+    position: relative;
+    border: 0;
+
+}
+
+.foot{
+    border: none;
+    bottom: 0;
+    height: 30px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
