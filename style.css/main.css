@@ -93,6 +93,8 @@ body{
 }
 .list{
     margin-top: 20px;
+    border: 0.5px solid black;
+    margin-left: 20px;
 }
 .repos1{
     border: 0.5px solid black;
@@ -101,6 +103,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-top: 5px;
+    margin-right: 10px;
 }
 .repos-name{
     margin-left: 10px;
