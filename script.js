@@ -26,14 +26,6 @@ searchInput.addEventListener('keydown', (event) => {
 });
 
 
-// 이벤트 리스너 등록
-viewProfileButton.addEventListener('click', () => {
-    const username = searchInput.value;
-    if (username) {
-        getUser(username);
-    }
-});
-
 // GitHub API를 사용하여 사용자 정보 가져오기
 const getUser = async (username) => {
     try {
